@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    
+
+    <nav id="nav">
+        <h2>
+            <i class="bi bi-book"></i>
+            Library Books Management    
+        </h2>
+
+        <ul>
+            <li>
+                <a id="go-home">
+                    <i class="bi bi-house"></i>    
+                    Home
+                </a>
+            </li>
+            <li>
+                <a id="go-management">
+                    <i class="bi bi-speedometer"></i>
+                    Management
+                </a>
+            </li>
+        </ul>
+        
+    </nav>
+
+
+    <div class="container" id="Management">
+        <div class="row space-arround">
+            <div class="col-8">
+                <section class="section-continer ">
+                    <div class="row space-between align-center ">
+                        <h3>
+                            <i class="bi bi-book"></i>
+                            Library Books 
+                        </h3>
+
+                        <div class="search-bar">
+                            <div class="search-input">
+                                <i class="bi bi-search"></i>
+                                <input type="text" class="search-text " placeholder="Search for books..." name="search" required>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Img</th>
+                                    <th>Title</th>
+                                    <th>Author</th>
+                                    <th>Year</th>
+                                    <th>Type</th>
+                                    <th class="text-center">
+                                        Actions
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>
+                                        <img src="imgs/img1.jpg" alt="Book Cover" class="book-cover">
+                                    </td>
+                                    <td>The Great Gatsby</td>
+                                    <td>F. Scott Fitzgerald</td>
+                                    <td>1925</td>
+                                    <td>
+                                        Fiction
+                                    </td>
+                                    <td class="text-center">
+                                    
+                                        <button class="btn btn-danger">
+                                            <i class="bi bi-trash"></i> 
+                                        </button>
+
+                                        <button class="btn btn-primary edit-btn">
+                                            <i class="bi bi-pencil"></i> 
+                                        </button>
+                                        <a  href="books/sample.pdf" download="download" class="btn btn-success download" >
+                                            <i class="bi bi-download"></i>
+                                        </a>
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>
+                                        <img src="imgs/img2.jpg" alt="Book Cover" class="book-cover">
+                                    </td>
+                                    <td>1984</td>
+                                    <td>George Orwell</td>
+                                    <td>1949</td>
+                                    <td>
+                                        Dystopian
+                                    </td>
+                                    <td class="text-center">
+                                        
+                                        <button class="btn btn-danger">
+                                            <i class="bi bi-trash"></i>     
+                                        </button>
+                                         <button class="btn btn-primary edit-btn">
+                                            <i class="bi bi-pencil"></i> 
+                                        </button>
+                                        <a  href="books/sample.pdf" download="download" class="btn btn-success download" >
+                                            <i class="bi bi-download"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>
+                                        <img src="imgs/img3.jpeg" alt="Book Cover" class="book-cover">
+                                    </td>
+                                    <td>To Kill a Mockingbird</td>
+                                    <td>Harper Lee</td>
+                                    <td>1960</td>
+                                    <td>
+                                        Fiction
+                                    </td>
+                                    <td class="text-center">
+                                        <button class="btn btn-danger">
+                                            <i class="bi bi-trash"></i> 
+                                        </button>
+                                         <button class="btn btn-primary edit-btn">
+                                            <i class="bi bi-pencil"></i>
+                                        </button>
+                                        <a  href="books/sample.pdf" download="download" class="btn btn-success download" >
+                                            <i class="bi bi-download"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>
+                                        <img src="imgs/img4.jpg" alt="Book Cover" class="book-cover">
+                                    </td>
+                                    <td>The Catcher in the Rye</td>
+                                    <td>J.D. Salinger</td>
+                                    <td>1951</td>
+                                    <td>
+                                        Fiction
+                                    </td>
+                                    <td class="text-center">
+                                        <button class="btn btn-danger">
+                                            <i class="bi bi-trash"></i> 
+                                        </button>
+                                         <button class="btn btn-primary edit-btn">
+                                            <i class="bi bi-pencil"></i> 
+                                        </button>
+                                        
+                                        <a  href="books/sample.pdf" download="download" class="btn btn-success download" >
+                                            <i class="bi bi-download"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>
+                                        <img src="imgs/img5.webp" alt="Book Cover" class="book-cover">
+                                    </td>
+                                    <td>Five Feet Apart</td>
+                                    <td>Racheal Lippincott</td>
+                                    <td>1951</td>
+                                    <td>
+                                        Fiction
+                                    </td>
+                                    <td class="text-center">
+                                        <button class="btn btn-danger">
+                                            <i class="bi bi-trash"></i> 
+                                        </button>
+                                         <button class="btn btn-primary edit-btn">
+                                            <i class="bi bi-pencil"></i> 
+                                        </button>
+                                        
+                                        <a  href="books/sample.pdf" download="download" class="btn btn-success download" >
+                                            <i class="bi bi-download"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+                    </div>
+                </section>
+            </div>
+            
+            <div class="col-3">
+                <section class="section-continer bgc ">
+                    <div class="row">
+                        <h3 class="main-title">
+                            <i class="bi bi-plus-square"></i>
+                            Enter New Book
+                        </h3>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <form action="" method="post" class="w-100">
+                                <div class="form-group">
+                                    <label for="title">
+                                        <i class="bi bi-book"></i>
+                                        Title
+                                    </label>
+                                    <input type="text" id="title" name="title" class="form-control" placeholder="Enter book title" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="author">
+                                        <i class="bi bi-person"></i>
+                                        Author
+                                    </label>
+                                    <input type="text" id="author" name="author" class="form-control" placeholder="Enter author's name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="year">
+                                        <i class="bi bi-calendar"></i>
+                                        Year
+                                    </label>
+                                    <input type="number" id="year" name="year" class="form-control" placeholder="Enter publication year" required> 
+                                </div>
+                                <div class="form-group">
+                                    <label for="type">
+                                        <i class="bi bi-tags"></i>
+                                        Type
+                                    </label>
+                                    <select id="type" name="type" class="form-control" required>
+                                        <option value="Fiction">Fiction</option>
+                                        <option value="Non-Fiction">Non-Fiction</option>
+                                        <option value="Dystopian">Dystopian</option>
+                                        <option value="Science Fiction">Science Fiction</option>
+                                        <option value="Fantasy">Fantasy</option>
+                                    </select>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label for="image">
+                                        <i class="bi bi-image"></i>
+                                        Book Cover Image
+                                    </label>
+                                    <input type="file" id="cover" name="image" class="form-control" accept="image/*">
+                                </div>
+
+                                
+                                <div class="form-group">
+                                    <label for="pdf">
+                                        <i class="bi bi-file-earmark-pdf"></i>
+                                        PDF File
+                                    </label>
+                                    <input type="file" id="pdf" name="pdf" class="form-control" accept=".pdf">
+                                </div>
+
+
+
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary w-100">
+                                        <i class="bi bi-plus-circle"></i>
+                                        Add Book
+                                    </button>
+                                </div>
+
+                                
+                             
+
+
+
+
+
+
+                            </form>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container" id="Home">
+        <div class="row">
+            <div class="col align-center">
+                <section class="section-continer w-100 bg-light" style="background-image: url('imgs/library_cover.jpg'); background-size: cover;">
+                    <div class="row">
+                        <div class="col-5 border-left">
+                           <div class="landing-section">
+                                <h1>
+                                    Welcome to the Digital Library
+                                </h1>
+                                <p>
+                                    Discover, read, and explore thousands of books from all genres — anytime, anywhere.
+                                </p>
+
+                           </div>
+                        </div>
+                    </div>
+                   
+                </section>
+            </div>
+        </div>
+
+        <div class="row mt-5 space-between" id="books-section">
+            <div class="col-2">
+                <div class="book-card">
+                    <img src="imgs/img1.jpg" alt="Book Cover" class="book-cover">
+                    <h4>Sugar Run</h4>
+                    <p>Author: Mesha Maren</p>
+                    <p>Year: 1925</p>
+                    <p>Type: Fiction</p>
+                    <div class="actions">
+                        <a href="books/sample.pdf" download="download" class="btn btn-success download" >
+                            <i class="bi bi-download"></i>
+                            Download PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-2">
+                <div class="book-card">
+                    <img src="imgs/img2.jpg" alt="Book Cover" class="book-cover">
+                    <h4>Sugar</h4>
+                    <p>Author: Deirde Riordan</p>
+                    <p>Year: 1949 </p>
+                    <p>Type: Dystopian </p>
+                    <div class="actions">
+                        <a href="books/sample.pdf" download="download" class="btn btn-success download" >
+                            <i class="bi bi-download"></i>
+                            Download PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <div class="book-card">
+                    <img src="imgs/img3.jpeg" alt="Book Cover" class="book-cover">
+                    <h4>The War Of The Worlds</h4>
+                    <p>Author: Harper Lee</p>
+                    <p>Year: 1960 </p>
+                    <p>Type: Fiction  </p>
+                    <div class="actions">
+                        <a href="books/sample.pdf" download="download" class="btn btn-success download" >
+                            <i class="bi bi-download"></i>
+                            Download PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+             <div class="col-2">
+                <div class="book-card">
+                    <img src="imgs/img4.jpg" alt="Book Cover" class="book-cover">
+                    <h4>Murder on the Orient </h4>
+                    <p>Author: Agatha Christie</p>
+                    <p>Year: 1951</p>
+                    <p>Type: Fiction  </p>
+                    <div class="actions">
+                        <a href="books/sample.pdf" download="download" class="btn btn-success download" >
+                            <i class="bi bi-download"></i>
+                            Download PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            
+             <div class="col-2">
+                <div class="book-card">
+                    <img src="imgs/img5.webp" alt="Book Cover" class="book-cover">
+                    <h4>Five Feet Apart</h4>
+                    <p>Author: Rachael Lippincott</p>
+                    <p>Year: 2018</p>
+                    <p>Type: Fantasy</p>
+                    <div class="actions">
+                        <a href="books/sample.pdf" download="download" class="btn btn-success download" >
+                            <i class="bi bi-download"></i>
+                            Download PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            
+               
+        </div>
+    </div>
+
+</body>
+<script src="js/home.js"></script>
+</html>
